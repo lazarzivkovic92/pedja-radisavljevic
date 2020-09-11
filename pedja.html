@@ -32,17 +32,21 @@
     <div id="box">
       <div id="miniBox">
         <div id="title-link-wrapper">
-          <div class="title-link">
-            <a href="#">contemporary music</a>
+          <div id="top-part">
+            <div class="titleLink-left">
+              <a href="#">contemporary music</a>
+            </div>
+            <div class="titleLink-right">
+              <a href="#">music arrangements & orchestrations</a>
+            </div>
           </div>
-          <div class="title-link">
-            <a href="#">music arrangements & orchestrations</a>
-          </div>
-          <div class="title-link">
-            <a href="#">music engraving</a>
-          </div>
-          <div class="title-link">
-            <a href="#">music for movie, theatre & video games</a>
+          <div id="bottom-part">
+            <div class="titleLink-left">
+              <a href="#">music engraving</a>
+            </div>
+            <div class="titleLink-right">
+              <a href="#">music for movie, theatre & video games</a>
+            </div>
           </div>
         </div>
       </div>
@@ -108,13 +112,28 @@
   }
   #title-link-wrapper {
     background-color: orange; 
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 70%;
     margin: 0 auto;
   }
-  .title-link {
-    width: 50%;
+  .titleLink-left {
+    width: 60%;
     height: 50%;
     float: left;
+    background-color: green;
+  }
+  .titleLink-right {
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: violet;
+  }
+  #top-part {
+    width: 100%;
+    height: 65%;
+  }
+  #bottom-part {
+    width: 100%;
+    height: 35%;
   }
 </style>
